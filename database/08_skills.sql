@@ -1,0 +1,6 @@
+
+CREATE TABLE skills (
+    skill_id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    skill_name VARCHAR(100) NOT NULL UNIQUE,
+    skill_category VARCHAR(100)
+);
